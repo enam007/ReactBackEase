@@ -1,6 +1,6 @@
 {
-  "name": "React Extension",
-  "description": "Chrome Extension in React!",
+  "name": "BackEase",
+  "description": "BackEase is a Chrome extension designed to promote better posture and alleviate back pain by reminding users to take periodic breaks for stretching exercises. It helps integrate healthy habits into your daily routine, ensuring you stay active and comfortable while working or browsing online.",
   "version": "1.0.0",
   "manifest_version": 3,
   "icons": {
@@ -10,7 +10,7 @@
   },
   "action": {
     "default_popup": "popup.html",
-    "default_title": "React Extension",
+    "default_title": "BackEase",
     "default_icon": "icon.png"
   },
   "permissions": ["storage"],
