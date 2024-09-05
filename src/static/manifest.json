@@ -1,6 +1,6 @@
 {
   "name": "BackEase",
-  "description": "BackEase is a Chrome extension designed to promote better posture and alleviate back pain by reminding users to take periodic breaks for stretching exercises. It helps integrate healthy habits into your daily routine, ensuring you stay active and comfortable while working or browsing online.",
+  "description": "BackEase is a Chrome extension that prompts periodic breaks for stretching exercises to ease back pain and improve posture.",
   "version": "1.0.0",
   "manifest_version": 3,
   "icons": {
@@ -13,7 +13,7 @@
     "default_title": "BackEase",
     "default_icon": "icon.png"
   },
-  "permissions": ["storage"],
+  "permissions": ["storage", "activeTab"],
   "options_page": "options.html",
   "background": {
     "service_worker": "background.js"
